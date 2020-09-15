@@ -1,3 +1,20 @@
-.App {
-  text-align: center;
+div.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.shrink {
+  align-items: flex-start;
+}
+
+div.grid-container {
+  margin-right: 1rem;
 }
